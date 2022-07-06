@@ -13,7 +13,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 100px;
-    /* background-color: rgba(0, 0, 0, .6); */
+     background-color: rgba(0, 0, 0, .6); 
     padding-bottom: 100px;
     background-blend-mode: overlay
 }
@@ -51,7 +51,12 @@ header {
     margin-top: 15px;
     color: white;
     
+    
 }
+.second-position{
+    margin-top: 80px;
+}
+
 .donate{
     text-align: center;
     width: 50%;
@@ -72,6 +77,9 @@ header {
 .rectangle{
     display: flex;
     justify-content: space-evenly;
+   margin-top: 50PX;
+    padding-right: 20PX;
+  
     /* position: absolute;
     width: 135px;
     height: 203px;
@@ -79,12 +87,108 @@ header {
     background-color: #fafafa;
     border-radius: 5px; */
 }
-.amount-1{
+.box-1{
     
+    width: 135px;
+    height: 123px;
+    border-radius: 5PX;
+    
+    background-color: #FAFAFA;
+}
+.box-2{
+    
+    width: 135px;
+    height: 123px;
+    border-radius: 5PX;
+    border:  2PX solid #FF5959;
+    background-color: #FFEEEE;
+}
+.box-3{
+    
+    width: 135px;
+    height: 123px;
+    border-radius: 5PX;
+    
+    background-color: #FAFAFA;
+}
+.box-4{
+    
+    width: 135px;
+    height: 123px;
+    border-radius: 5PX;
+    
+    background-color: #FAFAFA;
+}
+.box-5{
+    
+    width: 135px;
+    height: 123px;
+    border-radius: 5PX;
+    
+    background-color: #FAFAFA;
+}
+.amount-1{
+  text-align: center;  
+  padding-top:50PX ;
+}
+#added{
+    text-align: center;
+    
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #B3B3B3;
+   
+}
 /* width: 86px;
 height: 36px;
 left: 362px;
 font-size: 30px;
 font-weight: 700;
 text-align: center; */
+}
+.third-position{
+    margin-top: 80px;
+}
+.donate-plan {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+.donate-plan h1{
+    
+}
+
+
+
+.our-plan{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin-top: 50px;
+}
+.plan{
+    width: 270px;
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.plans-1{
+    width: 360px;
+    height: 352px;
+    background-color: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+}
+.plans-2{
+    width: 360px;
+    height: 352px;
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+}
+.plans-3{
+    width: 360px;
+    height: 352px;
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
 }
