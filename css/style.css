@@ -144,15 +144,31 @@ header {
     text-align: center;
     padding-top: 50PX;
 }
-
-#added {
+.input .input-data input{
+    width: 50%;
+    height: 100%;
+    border: none;
+     text-align: center; 
+    font-size: 18px;
+    border-bottom: 2px solid silver;
+    margin-left: 350px;
+    
+}
+/* .input .input-data label{
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    color: #707070; */
+    
+}
+/* #added {
     text-align: center;
     border-bottom: 2px solid gray;
     border-width: 2px;
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
-    color: #B3B3B3;
+    color: #B3B3B3; */
 
 }
 
